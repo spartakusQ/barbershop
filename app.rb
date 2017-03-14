@@ -5,7 +5,7 @@ require 'sinatra/activerecord'
 
 
 
-set :database, "sqlite3:db/barbershop.db"
+set :database, "sqlite3:/home/qq/myapp/barbershop/db/barbershop.db"
 
 class Client < ActiveRecord::Base
 end
